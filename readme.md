@@ -1,11 +1,5 @@
-# Free Demo Components for [JCB](https://github.com/vdm-io/Joomla-Component-Builder)
+# Demo Components for [JCB](https://github.com/vdm-io/Joomla-Component-Builder)
 
-You can now with much ease import components in to JCB that are already mapped. You cna that adapte these components to your needs.
+You can now with much ease import components in to JCB that are already mapped. You can that adapt these components to your needs.
 
-## Watch a tutorial on how this is done
-
-soon...
-
-# More Components are available for sale at VDM.io
-
-Also more information coming soon..
+## Watch [this tutorial](https://youtu.be/lkE0ZiSWufg) on how to add these components to your JCB install. Some of these packages need a key to buy access to these keys please contact Llewellyn at [joomla@vdm.io](mailto:joomla@vdm.io)
