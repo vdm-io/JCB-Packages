@@ -4,8 +4,8 @@
 command -v jq >/dev/null 2>&1 || { echo >&2 "We require jq for this script to run, but it's not installed.  Aborting."; exit 1; }
 command -v sha1sum >/dev/null 2>&1 || { echo >&2 "We require sha1sum for this script to run, but it's not installed.  Aborting."; exit 1; }
 
-# quick checksum generator for all the Bibles used in getBible.net
-echo -n "[vdm.io] -- Building checksum and info file for all JCB (zip) Packages found in this repository......"
+# quick checksum generator for all zip packages in this repo root folder
+echo -n "[vdm.io] -- Building checksum and info file for all zip Packages found in this repository......"
 
 # setup: positional arguments to pass in literal variables, query with code    
 jq_args=( )
