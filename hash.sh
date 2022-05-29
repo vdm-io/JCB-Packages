@@ -15,7 +15,7 @@ nr=1
 
 for filename in *.zip; do
 	# get the hash
-    fileHash=$(sha1sum "$filename" | awk '{print $1}')
+	fileHash=$(sha1sum "$filename" | awk '{print $1}')
 	# build the hash file name
 	hashFileName="${filename/.zip/.sha}"
 	# create/update the file checksum
@@ -27,7 +27,7 @@ for filename in *.zip; do
 	mv info.vdm "$shopFileName"
 	# load the values for json
 	jq_args+=( --arg "key$nr"   "$filename"   )
-    jq_args+=( --arg "value$nr" "$fileHash" )
+	jq_args+=( --arg "value$nr" "$fileHash" )
 	# build query for jq
 	jq_query+=" | .[\$key${nr}]=\$value${nr}"
 	#next
